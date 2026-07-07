@@ -1,0 +1,39 @@
+{
+  "stage_id": "1013R_R250_EXTERNAL_LESSON_AGENT_REFERENCE_AUDIT",
+  "status": "PASS",
+  "verified_at": "2026-07-08T05:00:00+08:00",
+  "boundary": {
+    "copied_external_code": false,
+    "installed_dependencies": false,
+    "ran_external_projects": false,
+    "called_provider_or_model": false,
+    "modified_backend_runtime": false,
+    "modified_frontend_runtime": false,
+    "modified_r201": false,
+    "modified_r220": false,
+    "modified_r210": false,
+    "modified_r95": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_store_written": false,
+    "formal_export_created": false
+  },
+  "created_files": [
+    "README.md",
+    "external_project_comparison_matrix.md",
+    "lesson_bundle_output_chain_reference.md",
+    "agent_workflow_reference.md",
+    "classroom_simulation_and_xiaojiao_reference.md",
+    "free_prep_input_schema_reference.md",
+    "xiaobei_adoption_plan.md",
+    "do_not_adopt_risks.md",
+    "r250_source_evidence_map.json",
+    "r250_boundary_verification.json"
+  ],
+  "notes": [
+    "The audit uses local downloaded source references under Z drive.",
+    "The current R201M/R220F stage reports are treated as protected chain evidence.",
+    "R250 is docs-only and should not be treated as runtime implementation."
+  ]
+}
+
