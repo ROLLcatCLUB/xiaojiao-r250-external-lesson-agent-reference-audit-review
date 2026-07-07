@@ -1,0 +1,70 @@
+{
+  "stage_id": "1013R_R250_EXTERNAL_LESSON_AGENT_REFERENCE_AUDIT",
+  "external_reference_root": "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212",
+  "current_chain_sources": {
+    "r201m": {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+      "evidence": [
+        "README.md:8-13 states no R220F route binding, no formal apply, no DB/Feishu/memory write, no R95 export, no baseline overwrite.",
+        "r201m_teacher_review_preview_policy.md:3-9 treats model output as proposed edit only and keeps proposed/deferred not applied to baseline."
+      ]
+    },
+    "r220f": {
+      "path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R220F_R97B_CENTER_BODY_READONLY_ROUTE_BINDING_CANARY_WITH_PATCH_PREVIEW",
+      "evidence": [
+        "README.md:3-5 says route binding is readonly and does not save, formal apply, export, call provider/model, or bind right rail.",
+        "r220f_route_binding_report.md:5-12 states no R21/R36 change, no right rail, no bottom Xiaojiao writing, no formal apply/write/R95/provider call, and lists baseline/model/accepted view modes."
+      ]
+    }
+  },
+  "external_sources": {
+    "claw_ed": {
+      "path": "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\Claw-ED",
+      "evidence": [
+        "README.md:5 describes complete lesson bundles with plans, handouts, slides, differentiated versions, games, and teacher voice.",
+        "README.md:30-45 describes teacher DOCX, student DOCX, and slides PPTX.",
+        "README.md:55-60 describes quality gate, teacher images, teacher voice, and export formats.",
+        "README.md:77 describes central approval policy with read_only/write_local/network_call/package_install risk levels.",
+        "README.md:92-100 describes local-first trust model and stable generation/export features.",
+        "clawed/agent_core/tools/generate_lesson_bundle.py:173-205 compiles teacher DOCX, student DOCX, and PPTX.",
+        "clawed/agent_core/tools/base.py:19-35 defines risk levels and approval defaults."
+      ]
+    },
+    "saniales_ai_lesson_planner": {
+      "path": "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\saniales-ai-lesson-planner",
+      "evidence": [
+        "README.md:24-28 describes course-planner, discussion-moderator, lesson-planner, slides-maker, and PDF export.",
+        "README.md:69-72 defines agent responsibilities.",
+        "docs/WORKFLOW.md:7-18 records workflow and artifact steps.",
+        ".github/agents/course-planner.md:7-11 says course-planner creates course outline and does not generate lesson-level content.",
+        ".github/agents/lesson-planner.md:22-37 constrains section count, reads highlights, and writes discourse artifacts.",
+        ".github/agents/slides-maker.md:25-42 creates MARP slides from lesson artifacts."
+      ],
+      "license_note": "reference_manifest.json records GPL-3.0; do not copy code or templates."
+    },
+    "classmin": {
+      "path": "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\classmin",
+      "evidence": [
+        "README.md:45-54 describes CrewAI prep, classroom simulation, skeleton generation, state management, and timing system.",
+        "README.md:62-63 describes PPT page references and rule-based student model.",
+        "pyproject.toml:9-20 lists CrewAI, AutoGen, OpenAI, Ollama, and ChromaDB dependencies.",
+        "src/classroom_simulation/utils/timeline_parser.py:2-69 parses classroom timeline into structured data.",
+        "src/classroom_simulation/tools/template_tools.py:219-244 defines classroom timeline template tool.",
+        "src/classroom_simulation/web/utils.py:77-88 looks for 教案, 说课稿, PPT脚本, 课堂时间线, 教材分析, and simulation output.",
+        "src/classroom_simulation/auto_sim/state_tracker.py:73-75 tracks understanding, attention, and frustration."
+      ]
+    },
+    "divanshi_ai_lesson_planner": {
+      "path": "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\DivanshiJain2005-AI-lesson-planner",
+      "evidence": [
+        "README.md:60-65 lists Lesson Title, Subject, Grade, Duration, Key Vocabulary, and Supporting Materials and Resources.",
+        "README.md:71 mentions downloadable output.",
+        "app.py:16-22 describes JSON input shape.",
+        "app.py:55-62 creates Streamlit fields for title, subject, grade, duration, key vocabulary, and supporting materials.",
+        "app.py:6 contains hardcoded placeholder API key pattern.",
+        "requirements.txt:1-2 pins streamlit==1.24.1 and openai==0.28.0."
+      ]
+    }
+  }
+}
+
