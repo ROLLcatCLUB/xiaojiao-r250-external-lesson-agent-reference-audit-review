@@ -1,0 +1,62 @@
+﻿[
+    {
+        "name":  "Claw-ED",
+        "github":  "https://github.com/SirhanMacx/Claw-ED",
+        "local_path":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\Claw-ED",
+        "default_branch":  "main",
+        "latest_pushed_at":  "2026-06-20T00:54:05Z",
+        "stars":  52,
+        "language":  "TypeScript",
+        "license":  "MIT",
+        "file_count":  965,
+        "size_mb":  109.65,
+        "readme":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\Claw-ED\\README.md",
+        "source_zip":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\_downloads\\Claw-ED.zip",
+        "download_method":  "GitHub codeload zip; git clone unavailable because local git remote-https helper is missing"
+    },
+    {
+        "name":  "saniales-ai-lesson-planner",
+        "github":  "https://github.com/saniales/ai-lesson-planner",
+        "local_path":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\saniales-ai-lesson-planner",
+        "default_branch":  "main",
+        "latest_pushed_at":  "2026-02-14T16:48:02Z",
+        "stars":  16,
+        "language":  "Shell",
+        "license":  "GPL-3.0",
+        "file_count":  39,
+        "size_mb":  0.19,
+        "readme":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\saniales-ai-lesson-planner\\README.md",
+        "source_zip":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\_downloads\\saniales-ai-lesson-planner.zip",
+        "download_method":  "GitHub codeload zip; git clone unavailable because local git remote-https helper is missing"
+    },
+    {
+        "name":  "classmin",
+        "github":  "https://github.com/sususng/classmin",
+        "local_path":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\classmin",
+        "default_branch":  "master",
+        "latest_pushed_at":  "2026-06-25T13:35:47Z",
+        "stars":  0,
+        "language":  "Python",
+        "license":  "MIT",
+        "file_count":  68,
+        "size_mb":  1.26,
+        "readme":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\classmin\\README.md",
+        "source_zip":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\_downloads\\classmin.zip",
+        "download_method":  "GitHub codeload zip; git clone unavailable because local git remote-https helper is missing"
+    },
+    {
+        "name":  "DivanshiJain2005-AI-lesson-planner",
+        "github":  "https://github.com/DivanshiJain2005/AI-lesson-planner",
+        "local_path":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\DivanshiJain2005-AI-lesson-planner",
+        "default_branch":  "main",
+        "latest_pushed_at":  "2024-10-03T06:23:15Z",
+        "stars":  4,
+        "language":  "Python",
+        "license":  null,
+        "file_count":  9,
+        "size_mb":  1,
+        "readme":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\DivanshiJain2005-AI-lesson-planner\\README.md",
+        "source_zip":  "Z:\\SmartEdu-External-References\\teacher-prep-github-refs-20260708-051212\\_downloads\\DivanshiJain2005-AI-lesson-planner.zip",
+        "download_method":  "GitHub codeload zip; git clone unavailable because local git remote-https helper is missing"
+    }
+]
